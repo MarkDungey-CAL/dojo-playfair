@@ -17,14 +17,16 @@ jobs:
   dojo:
     runs-on: windows-latest
     steps:
+      - name: Checkout version tag
+        uses: actions/checkout@v3
       - name: Build Project
         shell: pwsh
         run: |
-            dotnet build ./ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj --output ./dojo-playfair.exe
+            dotnet build ./ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj --output ./compiled
       # - name: Build Project
       #   shell: pwsh
       #   run: |
-      #     dotnet run ./dojo-playfair.exe --property VARIABLE:${{inputs.string_to_decrypt}}
+      #     dotnet run ./compiled/ConsoleApp1.exe --property VARIABLE:${{inputs.string_to_decrypt}}
           
 #"dojo-playfair"
 
