@@ -1,5 +1,5 @@
 name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out Inputs 🚀
+run-name: ${{ github.actor }} is testing out Outputs 🚀
 on:
   workflow_dispatch:
     inputs:
@@ -17,11 +17,11 @@ on:
     outputs:
       workflow_output1:
         description: "The first job output"
-        value: "${{ inputs.messageIn }} + changed"
+        value: ${{ inputs.messageIn }} + world
 
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🎉 The input was ${{ inputs.messageIn }} event."
-      - run: echo "🎉 The output was ${{ needs.outputs.workflow_output1 }} event."
+      - run: echo "🎉 The input was ${{ inputs.messageIn }}."
+      - run: echo "🎉 The output was ${{ needs.outputs.workflow_output1.value }}"
