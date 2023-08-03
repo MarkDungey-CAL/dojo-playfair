@@ -1,7 +1,12 @@
 name: "dojo"
 
 on:
-  workflow_dispatch:  
+  workflow_dispatch:
+    inputs:
+      string_to_decrypt:
+        type: string
+        required: true
+        description:
   workflow_call:
     inputs:
       string_to_decrypt:
@@ -12,8 +17,10 @@ jobs:
   dojo:
     runs-on: windows-latest
     steps:
-      - name: Run Deployment Ps Script
+      - name: Build Project
         shell: pwsh
         run: |
-            dotnet build
+            dotnet build ./dojo-playfair/"dojo-playfair.sln"
+
+#"dojo-playfair"
 
