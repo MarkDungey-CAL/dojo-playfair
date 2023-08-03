@@ -20,7 +20,7 @@ jobs:
       - name: Build Project
         shell: pwsh
         run: |
-            dotnet build ./ConsoleApp1yfair/ConsoleApp1/ConsoleApp1.csproj" --o ./dojo-playfair.exe
+            dotnet build ./ConsoleApp1yfair/ConsoleApp1/ConsoleApp1.csproj --o ./dojo-playfair.exe
       # - name: Build Project
       #   shell: pwsh
       #   run: |
