@@ -14,9 +14,14 @@ on:
         description: Input string
         type: string
         required: true
+    outputs:
+      workflow_output1:
+        description: "The first job output"
+        value: "${{ inputs.messageIn }} + changed"
 
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The input was ${{ inputs.messageIn }} event."
+      - run: echo "🎉 The output was ${{ needs.outputs.workflow_output1 }} event."
