@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dojo-Playfair", "Dojo-Playfair\Dojo-Playfair.csproj", "{14C86575-84ED-40E8-BD8C-C3CF7AB96B7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14C86575-84ED-40E8-BD8C-C3CF7AB96B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C86575-84ED-40E8-BD8C-C3CF7AB96B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14C86575-84ED-40E8-BD8C-C3CF7AB96B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14C86575-84ED-40E8-BD8C-C3CF7AB96B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
