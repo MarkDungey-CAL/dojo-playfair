@@ -1,0 +1,19 @@
+name: "dojo"
+
+on:
+  workflow_dispatch:  
+  workflow_call:
+    inputs:
+      string_to_decrypt:
+        type: string
+        required: true
+        description:
+jobs:
+  dojo:
+    runs-on: windows-latest
+    steps:
+      - name: Run Deployment Ps Script
+        shell: pwsh
+        run: |
+            dotnet build
+
