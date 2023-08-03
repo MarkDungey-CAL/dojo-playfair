@@ -20,7 +20,11 @@ jobs:
       - name: Build Project
         shell: pwsh
         run: |
-            dotnet build ./dojo-playfair/"dojo-playfair.sln"
-
+            dotnet build ./ConsoleApp1yfair/ConsoleApp1/ConsoleApp1.csproj" --o ./dojo-playfair.exe
+      # - name: Build Project
+      #   shell: pwsh
+      #   run: |
+      #     dotnet run ./dojo-playfair.exe --property VARIABLE:${{inputs.string_to_decrypt}}
+          
 #"dojo-playfair"
 
