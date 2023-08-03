@@ -33,3 +33,8 @@ C:\Users\markd\Documents\GitHub\dojo\dojo-playfair\app.exe\ConsoleApp1.deps.json
 C:\Users\markd\Documents\GitHub\dojo\dojo-playfair\app.exe\ConsoleApp1.runtimeconfig.json
 C:\Users\markd\Documents\GitHub\dojo\dojo-playfair\app.exe\ConsoleApp1.dll
 C:\Users\markd\Documents\GitHub\dojo\dojo-playfair\app.exe\ConsoleApp1.pdb
+C:\Users\markd\Documents\GitHub\dojo\dojo-playfair\compiled\ConsoleApp1.exe
+C:\Users\markd\Documents\GitHub\dojo\dojo-playfair\compiled\ConsoleApp1.deps.json
+C:\Users\markd\Documents\GitHub\dojo\dojo-playfair\compiled\ConsoleApp1.runtimeconfig.json
+C:\Users\markd\Documents\GitHub\dojo\dojo-playfair\compiled\ConsoleApp1.dll
+C:\Users\markd\Documents\GitHub\dojo\dojo-playfair\compiled\ConsoleApp1.pdb
