@@ -1,0 +1,21 @@
+name: "NP_Manage_SQL_Logins"
+
+on:
+  workflow_dispatch:
+  
+env:
+    code: 
+
+  dojo:
+    needs: [setup,set-variables]
+    runs-on:
+      - self-hosted
+      - linux
+      - x64
+      - non-prod
+    steps:
+      - name: Run Deployment Ps Script
+        shell: pwsh
+        run: |
+            dotnet build
+
