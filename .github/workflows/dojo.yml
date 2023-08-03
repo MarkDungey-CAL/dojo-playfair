@@ -1,13 +1,9 @@
-name: "NP_Manage_SQL_Logins"
+name: "dojo"
 
 on:
-  workflow_dispatch:
-  
-env:
-    code: 
-
+  workflow_dispatch:  
+jobs:
   dojo:
-    needs: [setup,set-variables]
     runs-on:
       - self-hosted
       - linux
